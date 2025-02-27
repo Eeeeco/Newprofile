@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">Saurav Ojha</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="https://raw.githubusercontent.com/Eeeeco/Portfolio/main/Mee.png" alt="Profile Picture">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Saurav</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I’m a data enthusiast advancing my skills in data science. Through a specialized course, I’ve gained hands-on experience in data cleaning, statistical modeling, and visualization, with practical knowledge of Python, Pandas, NumPy, SQL, and BI tools like Tableau and Power BI.</p>
+            <p>I’m still building my confidence in some areas, but I’m excited to continuously refine my skills and apply them to solve real-world challenges.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sauravojha"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Eeeeco"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1f0xowksq-tYZVoJnBGhxD9Cm9MawVHIC/view?usp=drive_link" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-icon heart">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3>Heart Disease Prediction</h3>
+                <p>Machine learning model to predict cardiovascular risks using patient data.</p>
+                <a href="#projects" class="project-link">View Details →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon insurance">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Insurance Claim Prediction</h3>
+                <p>Predictive analytics model for insurance claim likelihood assessment.</p>
+                <a href="#projects" class="project-link">View Details →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon bike">
+                    <i class="fas fa-bicycle"></i>
+                </div>
+                <h3>Bike Rental Prediction</h3>
+                <p>Time-series forecasting model for urban bike sharing demand.</p>
+                <a href="#projects" class="project-link">View Details →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon python">
+                    <i class="fab fa-python"></i>
+                </div>
+                <h3>Python</h3>
+                <p>Data manipulation, analysis, and machine learning</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon powerbi">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>Power BI</h3>
+                <p>Interactive dashboards and data visualization</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon sql">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>SQL</h3>
+                <p>Database management and query optimization</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon ml">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Machine Learning</h3>
+                <p>Predictive modeling and algorithm development</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title">My Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3>UPES University</h3>
+                    <p class="degree">MBA in Business Analytics</p>
+                    <span class="year">2025 - Present</span>
+                    <p class="description">Advancing my expertise in data-driven decision-making and business strategy.</p>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="education-content">
+                    <h3>IGNOU University</h3>
+                    <p class="degree">BCom Degree</p>
+                    <span class="year">2019 - 2022</span>
+                    <p class="description">Gained foundational knowledge in commerce and business principles.</p>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Bhagirath Public School</h3>
+                    <p class="degree">Senior Secondary</p>
+                    <span class="year">2017 - 2019</span>
+                    <p class="description">Completed my high school education with a focus on academics and extracurriculars.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline_component">
+            <div class="timeline_progress">
+                <div class="timeline_progress-bar"></div>
+            </div>
+            
+            <!-- Experience Item 1 -->
+            <div class="timeline_item">
+                <div class="timeline_left">
+                    <div class="timeline_date-text">2024 - Present</div>
+                </div>
+                <div class="timeline_centre">
+                    <div class="timeline_circle"></div>
+                </div>
+                <div class="timeline_right">
+                    <div class="margin-bottom-medium">
+                        <h3>Senior Executive</h3>
+                        <h4>Pacific Global Inc</h4>
+                        <div class="timeline_text">Leading data-driven decision making processes and strategic business initiatives.</div>
+                    </div>
+                    <div class="timeline_image-wrapper">
+                        <img src="company-logo1.png" alt="Company Logo"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="timeline_item">
+                <div class="timeline_left">
+                    <div class="timeline_date-text">2021 - 2023</div>
+                </div>
+                <div class="timeline_centre">
+                    <div class="timeline_circle"></div>
+                </div>
+                <div class="timeline_right">
+                    <div class="margin-bottom-medium">
+                        <h3>Analyst 2</h3>
+                        <h4>R1RCM</h4>
+                        <div class="timeline_text">Performed advanced data analysis and predictive modeling for healthcare claims.</div>
+                    </div>
+                    <div class="timeline_quote-wrapper">
+                        <img src="project-screenshot.jpg" alt="Project Example"/>
+                        <div class="timeline_quote-text-wrapper">
+                            <p class="timeline_quote">"Developed machine learning models that improved claim processing efficiency by 40%"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>New Delhi, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>sauravojha.business@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9667XXXXXX</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sauravojha"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Eeeeco"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="inactive">Other Links</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 Saurav Ojha. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Smooth scroll implementation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        
+        // Scroll animation for timeline
+        window.addEventListener('scroll', () => {
+            const timelineItems = document.querySelectorAll('.timeline_item');
+            const progressBar = document.querySelector('.timeline_progress-bar');
+            const timelineHeight = document.querySelector('.timeline_component').offsetHeight;
+            const scrollPosition = window.pageYOffset;
+            
+            // Update progress bar
+            const progress = (scrollPosition / timelineHeight) * 100;
+            progressBar.style.height = `${Math.min(progress, 100)}%`;
+
+            // Animate timeline items
+            timelineItems.forEach(item => {
+                const itemTop = item.getBoundingClientRect().top;
+                if(itemTop < window.innerHeight * 0.8) {
+                    item.classList.add('visible');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; 
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0; 
+    text-align: center; 
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; 
+}
+
+nav {
+    margin-top: 1rem; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem; 
+}
+
+.active {
+    font-weight: bold; 
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+
+/* Home Section */
+.home {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; 
+    text-align: center; 
+}
+
+.home-img img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.home-content {
+    margin-left: 2rem; 
+}
+
+.social-icons a {
+    margin: 0 0.5rem; 
+    color: #333; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #555; 
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.project-card {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: center; 
+}
+
+.project-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto; 
+}
+
+.project-icon i {
+    font-size: 2em; 
+}
+
+/* Add specific colors for each project icon */
+.heart { background-color: #f08080; } 
+.insurance { background-color: #ADD8E6; }
+.bike { background-color: #90EE90; }
+
+.project-link {
+    color: #333;
+    text-decoration: none; 
+}
+
+/* Skills Section - Similar structure to Projects */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.skill-card {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    text-align: center; 
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto; 
+}
+
+.skill-icon i {
+    font-size: 2em; 
+}
+
+/* Add specific colors for skill icons (adjust as needed) */
+.python { background-color: #3776AB; color: #fff; }
+.powerbi { background-color: #F2C811; } 
+.sql { background-color: #00758F; color: #fff; }
+.ml { background-color: #A61C3C; color: #fff; } 
+
+/* Education Section */
+.education-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.education-card {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+}
+
+.education-icon {
+    /* ... */ 
+}
+
+.education-content {
+    /* ... */ 
+}
+
+/* Experience Section - You'll need more detailed styling here */
+.timeline_component {
+    /* ... */ 
+}
+
+/* Contact Section - Similar to Home, with flexbox for layout */
+.contact-container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 2rem; 
+}
+
+.contact-content {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 80%; 
+}
+
+.contact-form {
+    /* ... */ 
+}
+
+.contact-info {
+    /* ... */ 
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0; 
+}
+
+footer a {
+    color: #fff; 
+}
+
+/* ... Your existing CSS ... */
+
+/* Experience Section */
+.experience {
+    padding: 8rem 0;
+    background: linear-gradient(135deg, #1a1a1a, #0a0a0a); /* Dark gradient */
+    color: white;
+}
+
+.timeline_component {
+    position: relative;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.timeline_progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background: #4b8bb7;
+}
+
+.timeline_progress-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #4b8bb7, #69db7c); /* Gradient progress */
+    height: 0%;
+    transition: height 0.5s ease;
+}
+
+.timeline_item {
+    display: flex;
+    margin-bottom: 3rem;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.timeline_item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline_left {
+    width: 150px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.timeline_date-text {
+    font-size: 1.4rem;
+    color: #aaa;
+}
+
+.timeline_centre {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4b8bb7;
+}
+
+.timeline_right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.margin-bottom-medium h3 {
+    font-size: 1.8rem;
+    color: #4b8bb7;
+    margin-bottom: 5px;
+}
+
+.margin-bottom-medium h4 {
+    font-size: 1.4rem;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.timeline_text {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+.timeline_image-wrapper img {
+    max-width: 150px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.timeline_quote-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.timeline_quote-wrapper img {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.timeline_quote-text-wrapper {
+    flex: 1;
+}
+
+.timeline_quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #bbb;
+}
